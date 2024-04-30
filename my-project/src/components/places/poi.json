@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_places_pois",
+  "info": {
+    "displayName": "poi",
+    "icon": "earth",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "latitude": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "images": {
+      "displayName": "gallery",
+      "type": "component",
+      "repeatable": true,
+      "component": "galleries.gallery"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
